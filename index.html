@@ -1,12 +1,46 @@
-<html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'Accueil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur notre site web</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <body>
-        <h1>
-            yeah boy
-        </h1>
-        <div>Et oui</div>
+    <section id="home" class="main-content">
+        <div class="container">
+            <button id="startButton" onclick="toggleMessage()">Cliquez ici</button>
+            <p id="message" class="hidden">Start</p>
+        </div>
+    </section>
 
-        <div>La div de la branch test</div>
-        <div>2e essai</div>
-    </body>
-</html>
+    <section id="about" class="info-section">
+        <div class="container">
+            <h2>À propos de nous</h2>
+            <p>Nous sommes une entreprise dédiée à la création de sites web de qualité. Notre objectif est de fournir des solutions innovantes et élégantes pour nos clients.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="info-section">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <p>Vous pouvez nous joindre à l'adresse email suivante : contact@example.com.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
