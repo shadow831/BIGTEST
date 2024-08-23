@@ -27,8 +27,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1400px;
+    margin-right: 725px;
     width: 100%;
 }
 
