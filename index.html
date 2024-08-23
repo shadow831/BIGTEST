@@ -2,45 +2,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page d'Accueil</title>
+    <title>Tesla - Page d'accueil</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenue sur notre site web</h1>
         <nav>
-            <ul>
-                <li><a href="#home">Accueil</a></li>
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="container">
+                <div class="logo">
+                    <a href="#">Tesla</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#">Modèles</a></li>
+                    <li><a href="#">Énergie</a></li>
+                    <li><a href="#">Entreprise</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <section id="home" class="main-content">
-        <div class="container">
-            <button id="startButton" onclick="toggleMessage()">Cliquez ici</button>
-            <p id="message" class="hidden">Start</p>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Accélérer la transition mondiale vers l'énergie durable</h1>
+            <a href="#" class="cta-button">Explorer les véhicules</a>
         </div>
     </section>
 
-    <section id="about" class="info-section">
+    <section class="features">
         <div class="container">
-            <h2>À propos de nous</h2>
-            <p>Nous sommes une entreprise dédiée à la création de sites web de qualité. Notre objectif est de fournir des solutions innovantes et élégantes pour nos clients.</p>
-        </div>
-    </section>
-
-    <section id="contact" class="info-section">
-        <div class="container">
-            <h2>Contactez-nous</h2>
-            <p>Vous pouvez nous joindre à l'adresse email suivante : contact@example.com.</p>
+            <div class="feature">
+                <h2>Performance</h2>
+                <p>Nos véhicules offrent une performance exceptionnelle avec des accélérations rapides et une autonomie élevée.</p>
+            </div>
+            <div class="feature">
+                <h2>Sécurité</h2>
+                <p>Nous mettons un point d'honneur à offrir une sécurité de classe mondiale avec des technologies de pointe.</p>
+            </div>
+            <div class="feature">
+                <h2>Autonomie</h2>
+                <p>Nos véhicules sont conçus pour vous offrir une autonomie impressionnante sur une seule charge.</p>
+            </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
+            <p>&copy; 2024 Tesla, Inc. Tous droits réservés.</p>
         </div>
     </footer>
 </body>
+</html>
